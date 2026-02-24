@@ -1,3 +1,26 @@
+# Homework
+
+## Question 1. Bruin Pipeline Structure
+Answer: bruin.yml and assets/
+
+## Question 2. Materialization Strategies
+Answer: time_interval - incremental based on a time column
+
+## Question 3. Pipeline Variables
+Answer: bruin run --var 'taxi_types=["yellow"]'
+
+## Question 4. Running with Dependencies
+Answer: bruin run --select ingestion.trips+
+
+## Question 5. Quality Checks
+Answer: name: not_null
+
+## Question 6. Lineage and Dependencies
+Answer: bruin lineage
+
+## Question 7. First-Time Run
+Answer: --full-refresh
+ 
 # Overview - End-to-End Data Platform
 
 This hands-on tutorial guides you through building a **complete NYC Taxi data pipeline** from scratch using Bruin - a unified CLI tool for data ingestion, transformation, orchestration, and governance.
