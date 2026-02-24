@@ -1,7 +1,7 @@
 # Homework
 
 ## Question 1. Bruin Pipeline Structure
-Answer: bruin.yml and assets/
+Answer: .bruin.yml and pipeline/ with pipeline.yml and assets/
 
 ## Question 2. Materialization Strategies
 Answer: time_interval - incremental based on a time column
